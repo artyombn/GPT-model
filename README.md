@@ -1,4 +1,4 @@
-# GPT-model
+# ViT-model
 
 #### The model classifies dog breeds from images using ViT architecture trained on a dataset of dog breeds.
 
