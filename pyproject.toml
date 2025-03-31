@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "GPT-model"
+version = "0.1.0"
+description = ""
+authors = ["artyombn <balabashinan@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11.9"
+transformers = {extras = ["pytorch"], version = "^4.50.3"}
+pillow = "^11.1.0"
+torch = "^2.6.0"
+datasets = "^3.5.0"
+tf-cpu = "^0.0.0"
+tensorflow = "^2.19.0"
+tf-keras = "^2.19.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
